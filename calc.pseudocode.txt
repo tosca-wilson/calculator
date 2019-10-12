@@ -1,0 +1,25 @@
+Make variable named entries equals to an empty array
+  Make variable named total equals to zero
+Make variable named temp equals to empty string
+
+
+Create function for when event of click happens to object with the ID of button
+Create variable named val equalling the value of the button that is clicked on
+
+If val is number or equal to “.” add it to temp variable
+Else, if value equals AC empty the entries array, temp variable to empty string and total variable to 0
+Else, if value equals CE reset temp variable back to an empty string to clear last entry
+Else, if value equals x push temp and * (multiply symbol) to entries array and temp to an empty string  
+Else, if value equals ÷ push temp and / (division symbol) to entries array and temp to an empty string
+Else if value equals = push temp to entries array
+	Make new variable named nt which equals number of entries in entries array
+
+	Make loop to go through the total length of the entries array and perform the calculations 	accordingly with entries inputted into the array
+		if symbol equals + add next number to nt
+		else, if symbol equals - minus next number to nt
+		else, if symbol equals * multiply nt by next number
+		else, if symbol equals / divide nt by the next number
+
+Push the value of nt to the answer id
+Reset entries array to empty 
+Reset temp string to empty
